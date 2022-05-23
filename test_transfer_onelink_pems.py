@@ -1,15 +1,14 @@
 import numpy as np
 import csv
 import matplotlib.pyplot as plt
-# import scipy
 import scipy.optimize
 from sklearn import preprocessing
 from sklearn import metrics
 from sklearn.utils.optimize import _check_optimize_result
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import Matern, WhiteKernel, ConstantKernel as C, RBF
-# import warnings
-# warnings.filterwarnings("ignore")
+import warnings
+warnings.filterwarnings("ignore")
 
 '''迁移学习-多link测试，有滑动窗口,五折交叉验证，单link预处理'''
 def getRMSE(y_label, pre):
@@ -180,5 +179,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    # load_main()
-    # load_main50()
+
