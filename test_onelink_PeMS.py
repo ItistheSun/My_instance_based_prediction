@@ -139,7 +139,6 @@ def main(dir,id,window,step,mode):
 
 if __name__ == '__main__':
     dir = r'D:/transfer_finally/PeMS/Station_data/'
-    # id = 801230
     id=818609
     window = 12
     step = 12
