@@ -170,7 +170,3 @@ def get_result_new(linkt,k):
     print(simlink)
     print(simset)
     return simlink,simset
-if __name__ == '__main__':
-    linkt={825899,806574,825818,814211,818553,818619,824166,801595,819703,816400}
-    k=6
-    get_result_new(linkt,k)
