@@ -141,8 +141,6 @@ def main():
     dir = r'D:/transfer_finally/PeMS/'
     linktest = [825899]
     s = [[813316, 819684, 801255, 824105, 807818]]
-    # linktest = [801595]
-    # s = [[824044, 818157, 818549, 825334]]
     window = 12
     step = 12
     mapeall = []
